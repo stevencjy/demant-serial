@@ -1,0 +1,23 @@
+version: "3"
+services:
+  redis:
+    image: redis/redis-stack-server:latest
+    ports:
+      - "6379:6379"
+    network_mode: "host"
+  api:
+    image: api-sample:latest
+    ports:
+      - 8081:80
+    depends_on:
+      - redis
+    expose:
+      - 8081
+    network_mode: "host"
+  nginx-lb:
+    image: nginx-lb-custom:latest
+    ports:
+      - "8080:90"
+    depends_on:
+      - api
+    network_mode: "host"

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "lTfI3W5epYPBiqKIBWnbJLO8eQu2l0Fnpajj51bcqDfwRqphvLZdsyKLY3sQWZkZ3r4LqMFohXeRlIQjuihqjw==",
+  "success": true,
+  "projectFilePath": "/Users/stevenchau/interview/demant/demant.csproj",
+  "expectedPackageFiles": [
+    "/Users/stevenchau/.nuget/packages/nredisstack/0.6.1/nredisstack.0.6.1.nupkg.sha512",
+    "/Users/stevenchau/.nuget/packages/pipelines.sockets.unofficial/2.2.2/pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "/Users/stevenchau/.nuget/packages/stackexchange.redis/2.6.96/stackexchange.redis.2.6.96.nupkg.sha512",
+    "/Users/stevenchau/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
